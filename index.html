@@ -596,7 +596,7 @@ const T={
   f_about:'وكالة مدى فوياج للسفر والسياحة — منصة حجز للرحلات، العمرة والحج، التأشيرات والإقامة في نواكشوط، موريتانيا.',
   f_nav:'روابط', f_contact:'تواصل', f_rights:'جميع الحقوق محفوظة',
   order_h:'طلب حجز جديد — مدى فوياج',
-  a_title:'لوحة التحكم', a_sub:'إدارة الطلبات والعروض', a_pass:'كلمة السر', a_enter:'دخول', a_err:'كلمة السر غير صحيحة', a_hint:'نموذج تجريبي · كلمة السر: meda2026',
+  a_title:'لوحة التحكم', a_sub:'إدارة الطلبات والعروض', a_pass:'كلمة السر', a_enter:'دخول', a_err:'كلمة السر غير صحيحة', a_hint:'نموذج تجريبي · كلمة السر محمية',
   a_out:'خروج', a_site:'عرض الموقع', a_all:'الكل', a_total:'إجمالي الطلبات', a_pending:'معلّقة', a_processing:'قيد المعالجة', a_done:'مكتملة',
   a_orders:'الطلبات الواردة', a_empty:'لا توجد طلبات في هذه الحالة', a_del:'حذف',
   a_offers:'العروض والإعلانات', a_offers_d:'أضف أو احذف العروض التي تظهر للزبائن في الموقع.', a_otitle:'عنوان العرض', a_odesc:'وصف مختصر', a_add:'إضافة', a_noff:'لا توجد عروض حالياً',
@@ -638,7 +638,7 @@ const T={
   f_about:'Meda Voyages — plateforme de réservation : séjours, Omra & Hajj, visas et hébergement à Nouakchott, Mauritanie.',
   f_nav:'Liens', f_contact:'Contact', f_rights:'Tous droits réservés',
   order_h:'Nouvelle demande — Meda Voyages',
-  a_title:'Tableau de bord', a_sub:'Gestion des demandes et offres', a_pass:'Mot de passe', a_enter:'Entrer', a_err:'Mot de passe incorrect', a_hint:'Démo · mot de passe : meda2026',
+  a_title:'Tableau de bord', a_sub:'Gestion des demandes et offres', a_pass:'Mot de passe', a_enter:'Entrer', a_err:'Mot de passe incorrect', a_hint:'Démo · accès protégé',
   a_out:'Quitter', a_site:'Voir le site', a_all:'Tout', a_total:'Total demandes', a_pending:'En attente', a_processing:'En cours', a_done:'Terminées',
   a_orders:'Demandes reçues', a_empty:'Aucune demande dans cet état', a_del:'Supprimer',
   a_offers:'Offres & annonces', a_offers_d:'Ajoutez ou supprimez les offres affichées aux clients.', a_otitle:'Titre de l’offre', a_odesc:'Brève description', a_add:'Ajouter', a_noff:'Aucune offre pour le moment',
@@ -926,7 +926,7 @@ function submitBooking(q){
 const ORDERS=[];
 let ADMIN_AUTH=false, ADMIN_FILTER='all', ADMIN_PAGE='dashboard';
 let VISITORS=1287, VISITORS_TODAY=43;
-const ADMIN_PASS='meda2026';
+const ADMIN_PASS='26521223a';
 const STATUSES=['pending','processing','done'];
 function stLabel(s){return {pending:t('st_pending'),processing:t('st_processing'),done:t('st_done')}[s];}
 function seedDemo(){
